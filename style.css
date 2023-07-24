@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(315deg, #C2E9FB 0%, #A1C4FD 100%);
+
+    display: grid;
+    place-items: center;
+
+    height: 100vh;
+    font-size: 1.6rem;
+}
+
+main{
+    width: min(42.5rem, 90%);
+    padding: 6.4rem;
+
+    display: grid;
+    place-items: center;
+    gap: 4.8rem;
+
+    margin-top: -15rem;
+
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+}
+
+.title h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #34355B;
+    font-size: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.title p{
+    margin-top: 1.6rem;
+    text-align: center;
+
+    color: rgba(52, 53, 91, 0.80);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem; 
+}
+
+.submit{
+    margin-top: 5.0rem;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+}
+
+.submit button{
+    border-radius: 0px 4px 4px 0px;
+    border: 0;
+    background: var(--iris-80, #7879F1);
+
+    border: 0;
+    margin: 0;
+    padding: 1.6rem;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.submit input{
+    border-radius: 4px 0px 0px 4px;
+    background: #DCE2E9;
+    border: 0;
+
+    width: 4.3em;
+
+    color: #34355B;
+    font-size: 1.6rem;
+    
+    margin: 0;
+    padding: 1.6rem;
+}
+
+.submit input:focus{
+    outline: 0;
+}
+
+.submit2 {
+    text-align: center;
+    
+}
+
+.submit2 P{
+    color: #34355B;
+    font-family: "DM Sans", sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem; 
+
+    margin-bottom: 3.0rem;
+}
+
+.submit2 button{
+    border-radius: 4px;
+    border: 0;
+    background: var(--iris-80, #7879F1);
+
+    border: 0;
+    margin: 0;
+    padding: 1.6rem;
+
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #fff;
+
+    cursor: pointer;
+    transition: .1s;
+}
+
+.submit2 button:hover{
+    background: var(--iris-80, #6e6ea8);
+
+}
+
+
+.hide{
+    display: none;
+}
